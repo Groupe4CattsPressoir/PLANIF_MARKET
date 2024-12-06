@@ -47,7 +47,7 @@ frmNouveauCompte.addEventListener("submit", (e) => {
                 lmessage.style.color = "green";
                 lmessage.innerHTML = "Compte d'utilisateur créé avec succès";
                 setInterval(() => {
-                    location.replace("login.html");
+                    location.replace("index.html");
                 }, 3000);
             }
         }
@@ -66,7 +66,7 @@ frmNouveauCompte.addEventListener("submit", (e) => {
             lmessage.style.color = "green";
             lmessage.innerHTML = "Compte d'utilisateur créé avec succès";
             setInterval(() => {
-                location.replace("login.html");
+                location.replace("index.html");
             }, 3000);
 
         }
