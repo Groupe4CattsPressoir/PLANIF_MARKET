@@ -37,7 +37,7 @@ frm_reset_password.addEventListener('click', function(event) {
         lmessage.style.color = "green";
         lmessage.innerHTML = "Mot de passe ré-initialisé avec succès";
         setInterval(() => {
-            location.replace("login.html");
+            location.replace("index.html");
         }, 3000);
     }
 });
