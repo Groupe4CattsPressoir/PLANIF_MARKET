@@ -1,0 +1,128 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    flex-direction: column; /* Stack navbar and content vertically */
+  }
+  
+  /* Container for the main content */
+  .container {
+    width: 100%;
+    max-width: 600px; /* Limit the width of the content */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Stack the cards vertically */
+    gap: 20px; /* Space between cards */
+    margin-left: auto;
+    margin-right: auto; /* Center the container horizontally */
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 12px;
+}
+
+ input[type="text"], input[type="date"], input[type="number"],  input[type="password"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            background-color: #f9f9f9;
+        }
+
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+  

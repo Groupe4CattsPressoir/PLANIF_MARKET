@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Liste des produits à acheter</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="ajouter_produit.html">Achat</a></li>
+            <li><a href="list_produit.html">Liste des Produits</a></li>
+            <li><a href="panier.html">Mon panier</a></li>
+            <li><a href="produit_acheter.html">Historique</a></li>
+            <li><a href="#" id="logout"><i>se deconnecter</i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Liste des produits à achter</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date Prevue</th>
+                    <th>Nom du produit</th>
+                    <th>Quantite</th>
+                    <th>Supermarche</th>
+                    <th>Mettre dans mon panier</th>
+                    <th>Supprimer</th>
+                </tr>
+            </thead>
+            <tbody id="tb_list_achat">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./js/list_produit.js"></script>
+</body>
+</html>
