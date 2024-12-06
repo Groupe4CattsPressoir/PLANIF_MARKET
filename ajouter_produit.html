@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter Produit</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="ajouter_produit.html">Achat</a></li>
+            <li><a href="list_produit.html">Liste des Produits</a></li>
+            <li><a href="panier.html">Mon panier</a></li>
+            <li><a href="produit_acheter.html">Historique</a></li>
+            <li><a href="#" id="logout"><i>se deconnecter</i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Ajouter le produit a achter</h2>
+        <form method="post" id="frm_ajouter_produit">
+            <label for="">Date prevue</label>
+            <input type="date" id="date_achat">
+
+            <label for="">Nom du produit</label>
+            <input type="text" id="nom_produit" placeholder="Spaghetti">
+
+            <label for="">Quantite</label>
+            <input type="number" id="quantite_produit" value="1" min="1">
+
+            <label for="">Supermarche</label>
+            <select id="list_supermarche">
+                <option value="DELIMART">DELIMART</option>
+                <option value="OLYMPIC">OLYMPIC</option>
+                <option value="KONPA MARKET">KONPA MARKET</option>
+                <option value="CARIBEAN MARKET">CARIBEAN MARKET</option>
+                <option value="BON JEAN MARKET">BONJEAN MARKET</option>
+                <option value="BIG STAR MARKET">BIG STAR MARKET</option>
+                <option value="GIANT SUPERMARKET">GIANT SUPERMARKET</option>
+                <option value="SUPERMAX">SUPERMAX</option>
+            </select>
+            <hr>
+            <br>
+            <button type="submit">Enregistrer</button>
+        </form>
+    </div>
+    <script src="./js/ajouter_produit.js"></script>
+</body>
+
+</html>
