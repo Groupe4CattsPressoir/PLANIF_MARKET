@@ -32,13 +32,14 @@ PLANIF Market - Vos courses, votre tranquillité !
 - Saint-Syr Garlentz Marcel
 - Calixte Anne Chloé Fritza
 - Métayer Robensca
+- Louissaint Amirouche Nerbens
 
 Développé avec passion par un groupe d'élèves de NS1, Collège Catts Pressoir.
 
 ##Installation
 
-Le fichier a déjà été organisé et n'utilise pas de technologie de type "server-side" de ce fait, il suffit juste de télécharger les fichiers sans les désorganiser et ensuite les placer dans un même fichier qui peut être accédé par votre navigateur.
+Le fichier a déjà été organisé et n'utilise pas de technologie de type "server-side" de ce fait, il suffit juste de télécharger les fichiers sans les désorganiser et ensuite les placer dans un même fichier qui peut être accédé par votre navigateur. Pour un utilisation en ligne, vous pouvez visiter ce lien https://groupe4cattspressoir.github.io/PLANIF_MARKET/index.html
 
 ##Technologie Utilisés
 
-Afin de créer ce site web local, nous n'avons utilisé que les ressources de base donnés par Javascript, CSS 3 et HTML 5. Cette non-utilisation de d'autres technologies a pour but de simplifier au maximum son utilisation dans la vie quotitdienne que ce soit avec ou sans accès a internet.
+Afin de créer ce site web, nous n'avons utilisé que les ressources de base donnés par Javascript, CSS 3 et HTML 5. Cette non-utilisation de d'autres technologies a pour but de simplifier au maximum son utilisation dans la vie quotitdienne que ce soit avec ou sans accès a internet.
