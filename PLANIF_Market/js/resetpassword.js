@@ -20,7 +20,7 @@ frm_reset_password.addEventListener('click', function(event) {
     const utilisateurExiste = utilisateurData.find(x => x.username === uName && x.email === email);
     if (!utilisateurExiste) {
         lmessage.style.color = "red";
-        lmessage.innerHTML = "Nom d'utilisateur/email inéxistant";
+        lmessage.innerHTML = "Nom d'utilisateur/email inexistant";
     } else {
         let newPassword = `${utilisateurExiste.username}123@`;
         utilisateurData.find(x => x.username === uName && x.email === email).password = newPassword;
