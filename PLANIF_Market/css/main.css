@@ -1,0 +1,254 @@
+.strikethrough {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    margin: 0;
+    background-color: #f4f4f4;
+    flex-direction: column; /* Stack navbar and content vertically */
+  }
+  
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Center the navbar horizontally */
+  width: 800px;
+  background-color: #333;
+  padding: 15px 0;
+  text-align: center;
+  z-index: 1000; /* Ensure navbar stays on top */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+  /* Container for the main content */
+  .container {
+    width: 100%;
+    max-width: 800px; /* Limit the width of the content */
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Stack the cards vertically */
+    gap: 20px; /* Space between cards */
+    margin-left: auto;
+    margin-right: auto; /* Center the container horizontally */
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+
+
+  .small-card-container {
+    width: 760px;
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if necessary */
+    gap: 10px; /* Add spacing between rows when wrapping */
+}
+
+.small-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    flex: 1 1 calc(33.33% - 10px); /* Cards take up 1/3 of the row width with spacing */
+    max-width: calc(33.33% - 10px); /* Prevent overflowing */
+}
+
+
+ .small-card.blue {
+            background-color: #add8e6; /* Light blue */
+            color: #004c99;
+        }
+
+        .small-card.green {
+            background-color: #90ee90; /* Light green */
+            color: #005500;
+        }
+
+        .small-card.grey {
+            background-color: #d3d3d3; /* Light grey */
+            color: #333333;
+        }
+
+
+.small-card:hover {
+    transform: scale(1.03);
+}
+
+.small-card-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.small-card-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.small-card-telephone {
+  margin-top: 2px;
+  font-size: 12px;
+  color: hsl(233, 79%, 47%);
+}
+
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 12px;
+}
+
+ input[type="text"], input[type="date"], input[type="number"],  input[type="password"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            background-color: #f9f9f9;
+        }
+
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    color: #555;
+}
+
+  
