@@ -1,8 +1,10 @@
 # PLANIF_MARKET
-PlanifMarket 🛒
- "Acheter malin, vivre serein avec PlanifMarket"
+
+PLANIF Market 🛒
+ "Acheter malin, vivre serein avec PLANIF Market"
 
  🌟 Contexte
+ 
 Dans un environnement haïtien complexe et instable, PlanifMarket emerge comme *LA solution innovative* pour simplifier vos achats quotidiens.
 
 🎯 Notre Mission
@@ -16,13 +18,13 @@ Transformer l'expérience d'achat en Haïti : rapide et accessible à tous !
    Même pour les "fils à maman" 🤭
 - Confort Maximal : Tout depuis chez vous
 
- 💡 Pourquoi Planif Market ?
+ 💡 Pourquoi PLANIF Market ?
 - Gain de Temps : Fini le stress des courses
 - Sécurité : Planifiez sereinement malgré le contexte national
 - Simplicité : Interface intuitive pensée par des élèves du Collège Catts Pressoir
 
  🚀 Votre Liberté, Notre Innovation
-Planif Market - Vos courses, votre tranquillité !
+PLANIF Market - Vos courses, votre tranquillité !
 
  👥 Créateurs
 - Délice Benjamin N.Donald
@@ -34,7 +36,9 @@ Planif Market - Vos courses, votre tranquillité !
 Développé avec passion par un groupe d'élèves de NS1, Collège Catts Pressoir.
 
 ##Installation
+
 Le fichier a déjà été organisé et n'utilise pas de technologie de type "server-side" de ce fait, il suffit juste de télécharger les fichiers sans les désorganiser et ensuite les placer dans un même fichier qui peut être accédé par votre navigateur.
 
 ##Technologie Utilisés
+
 Afin de créer ce site web local, nous n'avons utilisé que les ressources de base donnés par Javascript, CSS 3 et HTML 5. Cette non-utilisation de d'autres technologies a pour but de simplifier au maximum son utilisation dans la vie quotitdienne que ce soit avec ou sans accès a internet.
