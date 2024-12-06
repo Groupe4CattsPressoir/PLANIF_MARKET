@@ -16,7 +16,7 @@ window.addEventListener("load", function (event) {
         sessionStorage.setItem("mon_achat_login", JSON.stringify(UserLogin));
     }
     if(Object.keys(UserLogin).length === 0) {
-        this.location.replace("login.html");
+        this.location.replace("index.html");
     }
 
     if (sessionStorage.getItem("mon_achat_produits")) {
@@ -29,7 +29,7 @@ window.addEventListener("load", function (event) {
 logout.addEventListener("click", function(event) {
     UserLogin = {};
     sessionStorage.setItem("mon_achat_login", JSON.stringify(UserLogin));
-    location.replace('login.html');
+    location.replace('index.html');
 });
 
 const Achat = {
