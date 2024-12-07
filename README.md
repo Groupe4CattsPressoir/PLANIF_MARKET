@@ -42,4 +42,4 @@ Le fichier a déjà été organisé et n'utilise pas de technologie de type "ser
 
 ##Technologies Utilisées
 
-Afin de créer ce site web, nous n'avons utilisé que les ressources de base donnés par Javascript, CSS 3 et HTML 5. Cette non-utilisation de d'autres technologies a pour but de simplifier au maximum son utilisation dans la vie quotitdienne que ce soit avec ou sans accès a internet.
+Afin de créer ce site web, nous n'avons utilisé que les ressources de base données par Javascript, CSS 3 et HTML 5. Cette non-utilisation de d'autres technologies a pour but de simplifier au maximum son utilisation dans la vie quotidienne que ce soit avec ou sans accès a internet.
